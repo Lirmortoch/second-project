@@ -108,7 +108,7 @@ form.search #text_input
 
 form.search [type = "submit"]
 {
-    background: url(search.svg);
+    background: url('../img/figures/search.svg');
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
