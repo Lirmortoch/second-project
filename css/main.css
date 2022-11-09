@@ -16,6 +16,7 @@ body
     font-style: normal;
     font-weight: 400;
     color: var(--main-font-color);
+    background-color: var(--left-block-color);
 }
 
 /* Blocks. Change this shit*/
@@ -44,6 +45,7 @@ span.l_name
     line-height: 30px;
 
     width: 104px;
+    
 }
 
 nav a
@@ -54,15 +56,7 @@ nav a
     line-height: 21px;    
 }
 
-span.button_text
-{
-    color: var(--button-font-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    
-    width: 64px;    
-}
+
 
 h1.head1
 {
@@ -82,6 +76,8 @@ p.paragraph1
     width: 485px;    
 }
 
+/* Input and buttons*/
+
 input::placeholder
 {
     font-family: 'Poppins';
@@ -89,5 +85,38 @@ input::placeholder
     font-size: 18px;
     line-height: 20px;
     color: black;
-    width: 212px;
+}
+
+form.search #text_input
+{
+    width: 508px;
+    height: 64px;
+    font-size: 18px;
+    padding-left: 28px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(19, 22, 24, 0.08);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+form.search [type = "submit"]
+{
+    background: url(search.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+a.join_free_button
+{
+    color: var(--button-font-color);
+    background-color: var(--main-font-color);
+    font-weight: 500;
+    font-size: 14px;
+
+    width: 106px;
+    height: 44px;
+   
+    border-radius: 100px;
 }
