@@ -1,0 +1,17 @@
+html
+{
+    --main-font-color: #F2F2F2;
+    --second-font-color:  #EDE1E2;
+    --button-font-color: #CE7B87;
+
+    --right-block-color: #7F8FC4;
+    --left-block-color: #D9818E;
+
+    font-size: 14px;
+}
+body
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
