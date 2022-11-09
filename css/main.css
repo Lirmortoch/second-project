@@ -4,14 +4,90 @@ html
     --second-font-color:  #EDE1E2;
     --button-font-color: #CE7B87;
 
-    --right-block-color: #7F8FC4;
-    --left-block-color: #D9818E;
+    --left-block-color: #7F8FC4;
+    --right-block-color: #D9818E;
 
     font-size: 14px;
 }
+
 body
 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
+    color: var(--main-font-color);
+}
+
+/* Blocks. Change this shit*/
+
+div.page
+{
+    width: 100%;
+}
+
+div.left_block, div.logo
+{
+    background-color: var(--left-block-color);
+}
+
+div.right_block, nav.nav_bar
+{
+    background-color: var(--right-block-color);
+}
+
+/* Texts */
+
+span.l_name
+{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    width: 104px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: var(--main-font-color);
+    font-size: 14px;
+    line-height: 21px;    
+}
+
+span.button_text
+{
+    color: var(--button-font-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    width: 64px;    
+}
+
+h1.head1
+{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+
+    width: 574px;
+}
+
+p.paragraph1
+{
+    color: var(--second-font-color);
+    font-size: 18px;
+    line-height: 32px;
+    width: 485px;    
+}
+
+input::placeholder
+{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+    width: 212px;
 }
