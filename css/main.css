@@ -20,27 +20,52 @@ body
 
 /* Blocks*/
 
-div.page
-{
-    width: 100%;
-}
-
 div.right_block, div.left_block
 {
+    height: 100%;
     width: 50%;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
 }
 
 div.left_block
 {
     background-color: var(--left-block-color);
-   
+    float: left;
 }
 
 div.right_block
 {
     background-color: var(--right-block-color);
-   
+    float: right;
 }
+
+div.logo, nav.nav_bar
+{
+    position: fixed;
+    z-index: 2;
+}
+
+div.logo
+{
+    left: 0;
+    margin-left: 37px;
+    margin-top: 25px;
+}
+
+nav.nav_bar
+{
+   right: 0;
+   padding-right: 40px;
+   margin-top: 32px;
+}
+
+a
+{
+    margin-right: 28px
+}
+
 
 /* Texts */
 
@@ -118,6 +143,7 @@ a.join_free_button
     font-weight: 500;
     font-size: 14px;
 
+    height: 44px;
     width: 106px;
    
     border-radius: 100px;
