@@ -16,30 +16,30 @@ body
     font-style: normal;
     font-weight: 400;
     color: var(--main-font-color);
-    background-color: var(--left-block-color);
 }
 
-/* Blocks. Change this shit*/
+/* Blocks*/
 
 div.page
 {
     width: 100%;
 }
 
+div.right_block, div.left_block
+{
+    width: 50%;
+}
+
 div.left_block
 {
     background-color: var(--left-block-color);
+   
 }
 
 div.right_block
 {
     background-color: var(--right-block-color);
-}
-
-div.logo, nav.nav_bar
-{
-    background-color: none;
-    display: inline;
+   
 }
 
 /* Texts */
@@ -51,7 +51,6 @@ span.l_name
     line-height: 30px;
 
     width: 104px;
-    
 }
 
 nav a
@@ -61,8 +60,6 @@ nav a
     font-size: 14px;
     line-height: 21px;    
 }
-
-
 
 h1.head1
 {
@@ -106,7 +103,7 @@ form.search #text_input
     box-sizing: border-box;
 }
 
-form.search [type = "submit"]
+input.search_button
 {
     background: url('../img/figures/search.svg');
     background-repeat: no-repeat;
