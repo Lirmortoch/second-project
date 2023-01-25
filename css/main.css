@@ -20,7 +20,7 @@ body
 
 /* Blocks*/
 
-div.right_block, div.left_block
+.right_block, .left_block
 {
     height: 100%;
     width: 50%;
@@ -29,47 +29,75 @@ div.right_block, div.left_block
     padding-top: 20px;
 }
 
-div.left_block
+.left_block
 {
     background-color: var(--left-block-color);
     float: left;
 }
 
-div.right_block
+.right_block
 {
     background-color: var(--right-block-color);
     float: right;
 }
 
-div.logo, nav.nav_bar
+.header1
 {
-    position: fixed;
+    position: absolute;
     z-index: 2;
+    margin: 20px 40px 0px 40px;
 }
 
-div.logo
+.logo, .space-btw, .nav_bar, ul li
 {
-    left: 0;
-    margin-left: 37px;
-    margin-top: 25px;
+    display: inline-block;
 }
 
-nav.nav_bar
+.nav_bar
 {
-   right: 0;
-   padding-right: 40px;
-   margin-top: 32px;
+    margin-left: 67px;
 }
 
-a
+.space-btw
 {
-    margin-right: 28px
+    width: 1101px;
 }
 
+ul
+{
+    margin-right: -28px;
+}
+
+ul li
+{
+    padding-right: 28px;
+}
+
+.block-form
+{
+    padding-top: 307px;
+    padding-left: 100px;
+}
+
+.lb-text
+{
+    width: 574px;
+    margin-right: 86px;
+}
+
+.head1
+{
+    padding-bottom: 32px;
+}
+
+.paragraph1
+{
+    padding-bottom: 64px;
+}
 
 /* Texts */
 
-span.l_name
+.l_name
 {
     font-weight: 700;
     font-size: 20px;
@@ -86,7 +114,7 @@ nav a
     line-height: 21px;    
 }
 
-h1.head1
+.head1
 {
     font-family: 'Dela Gothic One';
     font-weight: 400;
@@ -96,7 +124,7 @@ h1.head1
     width: 574px;
 }
 
-p.paragraph1
+.paragraph1
 {
     color: var(--second-font-color);
     font-size: 18px;
@@ -105,6 +133,13 @@ p.paragraph1
 }
 
 /* Input and buttons*/
+
+.search
+{
+    position: relative;
+    width: 508px;
+    z-index: 3;
+}
 
 input::placeholder
 {
@@ -115,7 +150,7 @@ input::placeholder
     color: black;
 }
 
-form.search #text_input
+.search #text_input
 {
     width: 508px;
     height: 64px;
@@ -128,23 +163,48 @@ form.search #text_input
     box-sizing: border-box;
 }
 
-input.search_button
+.search_button
 {
     background: url('../img/figures/search.svg');
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
+
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    
+    cursor: pointer;
 }
 
-a.join_free_button
+.join_free_button
 {
     color: var(--button-font-color);
     background-color: var(--main-font-color);
     font-weight: 500;
     font-size: 14px;
 
-    height: 44px;
-    width: 106px;
-   
+    border: 1px solid var(--main-font-color);
     border-radius: 100px;
+
+    padding: 12px 21px 12px 21px;
+}
+
+/* Figures and patterns */
+
+.page img
+{
+    position: relative;
+}
+
+.figure_16
+{
+    top: -56px;
+    right: 64px;
+}
+
+.figure_17
+{
+    top: -100px;
+    left: 300px;
 }
