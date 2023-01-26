@@ -5,7 +5,7 @@ html
     --button-font-color: #CE7B87;
 
     --left-block-color: #7F8FC4;
-    --right-block-color: #D9818E;
+    --right-block-color: #CE7B87;
 
     font-size: 14px;
 }
@@ -16,22 +16,28 @@ body
     font-style: normal;
     font-weight: 400;
     color: var(--main-font-color);
+    background: linear-gradient(90deg, #647098 0%, #9D666E 100%);
 }
 
 /* Blocks*/
 
+.page
+{
+    width: 1440px;
+    margin: 0px 240px 0px 240px;
+}
+
 .right_block, .left_block
 {
     height: 100%;
-    width: 50%;
     position: relative;
-    z-index: 1;
     padding-top: 20px;
 }
 
 .left_block
 {
     background-color: var(--left-block-color);
+    width: 52.778%;
     float: left;
 }
 
@@ -39,12 +45,13 @@ body
 {
     background-color: var(--right-block-color);
     float: right;
+    width: 47.223%;
 }
 
 .header1
 {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     margin: 20px 40px 0px 40px;
 }
 
@@ -138,7 +145,7 @@ nav a
 {
     position: relative;
     width: 508px;
-    z-index: 3;
+    z-index: 1;
 }
 
 input::placeholder
