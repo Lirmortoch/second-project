@@ -16,7 +16,7 @@ body
     font-style: normal;
     font-weight: 400;
     color: var(--main-font-color);
-    background: linear-gradient(90deg, #647098 0%, #9D666E 100%);
+    background: linear-gradient(50deg, #647098 0%, #D9818E 100%);
 }
 
 /* Blocks*/
@@ -29,9 +29,10 @@ body
 
 .right_block, .left_block
 {
-    height: 100%;
+    height: 1024px;
     position: relative;
     padding-top: 20px;
+    z-index: 1;
 }
 
 .left_block
@@ -51,7 +52,7 @@ body
 .header1
 {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     margin: 20px 40px 0px 40px;
 }
 
@@ -67,7 +68,7 @@ body
 
 .space-btw
 {
-    width: 1101px;
+    width: 638px;
 }
 
 ul
@@ -197,7 +198,7 @@ input::placeholder
     padding: 12px 21px 12px 21px;
 }
 
-/* Figures and patterns */
+/* Figures, photos and patterns */
 
 .page img
 {
@@ -214,4 +215,53 @@ input::placeholder
 {
     top: -100px;
     left: 300px;
+}
+
+.figure_14
+{
+    top: 75px;
+    right: 40px;
+}
+
+.figure_1
+{
+    bottom: 100px;
+    left: 265px;
+}
+
+.figure_2
+{
+    top: 40px;
+}
+
+.figure_10
+{
+    bottom: 61px;
+    left: 505px;
+    z-index: 2;
+}
+
+.photo_2
+{
+    bottom: 820px;
+    left: 80px;
+    z-index: 2;
+}
+
+.pattern_2
+{
+    bottom: 850px;
+    left: 195px;
+}
+
+.pattern_1
+{
+    bottom: 850px;
+    right: 50px;
+}
+
+.figure_9
+{
+    bottom: 1020px;
+    left: 595px;
 }
