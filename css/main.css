@@ -32,7 +32,7 @@ body
     height: 1024px;
     position: relative;
     padding-top: 20px;
-    z-index: 1;
+    z-index: 9;
 }
 
 .left_block
@@ -52,7 +52,7 @@ body
 .header1
 {
     position: absolute;
-    z-index: 2;
+    z-index: 10;
     margin: 20px 40px 0px 40px;
 }
 
@@ -238,7 +238,7 @@ input::placeholder
 {
     bottom: 61px;
     left: 505px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .photo_2
@@ -264,4 +264,64 @@ input::placeholder
 {
     bottom: 1020px;
     left: 595px;
+}
+
+.figure_7
+{
+    bottom: 880px;
+    left: 155px;
+}
+
+.figure_8
+{
+    bottom: 855px;
+    left: 150px;
+}
+
+.figure_6
+{
+    bottom: 1325px;
+    left: 101px;
+}
+
+.figure_15
+{
+    bottom: 1015px;
+    left: -65px;
+}
+
+.photo_1
+{
+    bottom: 1015px;
+    left: -367px;
+}
+
+.figure_5
+{
+    bottom: 1190px;
+    left: 101px;
+}
+
+.figure_4
+{
+    bottom: 1400px;
+    left: 20px;
+}
+
+.figure_3
+{
+    bottom: 1470px;
+    left: 532px;
+}
+
+.photo_3
+{
+    bottom: 1467px;
+    left: 256px;
+}
+
+.figure_11
+{
+    bottom: 1480px;
+    left: -392px;
 }
