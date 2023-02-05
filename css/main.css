@@ -32,7 +32,7 @@ body
     height: 1024px;
     position: relative;
     padding-top: 20px;
-    z-index: 9;
+    z-index: 12;
 }
 
 .left_block
@@ -52,7 +52,7 @@ body
 .header1
 {
     position: absolute;
-    z-index: 10;
+    z-index: 13;
     margin: 20px 40px 0px 40px;
 }
 
@@ -294,6 +294,7 @@ input::placeholder
 {
     bottom: 1015px;
     left: -367px;
+    z-index: 5;
 }
 
 .figure_5
@@ -324,4 +325,10 @@ input::placeholder
 {
     bottom: 1480px;
     left: -392px;
+}
+
+.figure_18
+{
+    bottom: 1760px;
+    left: -380px;
 }
